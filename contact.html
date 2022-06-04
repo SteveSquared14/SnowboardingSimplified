@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Snowboarding, Simplified</title>
+		<link rel="stylesheet" href="index_css.css" />
+		<link rel="icon" href="Media/Tab-Icon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+	<div class="container">
+		<header>
+			<h1 id="Website-Title" >Snowboarding, Simplified.</h1>
+			<p><img id="Logo" src="Media/SSLogo.png" alt="The logo for this website"></p>
+		</header>
+		<nav>
+			<ul id="NavList">
+				<li class="NavItem"><a href="index.html">Home</a></li>
+				<li class="NavItem"><a href="adventures.html">Adventures</a></li>
+				<li class="NavItem"><a href="equipment.html">Equipment</a></li>
+				<li class="NavItem"><a href="freestyle.html">Freestyle</a></li>
+				<li class="NavItem"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<section class="col_g_6 col_s_6 col_m_6 col_l_12">
+			<h2>Feedback Form:</h2>
+			<form action="mailto:s.duckett2@edu.salford.ac.uk" method="post" target="_blank">
+				<label for="Name">Name:</label><br>
+				<input type="text" id="Name" name="Name"><br>
+				<p>Please rate your experience using this site</p>
+				<input type="radio" id="Really-Enjoyed" name="Rating" value="really enjoyed">
+				<label for="Really-Enjoyed">Really enjoyed</label><br>
+				<input type="radio" id="Enjoyed" name="Rating" value="Enjoyed">
+				<label for="Enjoyed">Enjoyed</label><br>
+				<input type="radio" id="Neutral" name="Rating" value="Neutral">
+				<label for="Neutral">Neutral</label><br>
+				<input type="radio" id="Didn't-Enjoy" name="Rating" value="Didn't enjoy">
+				<label for="Didn't-Enjoy">Didn't enjoy</label><br>
+				<input type="radio" id="Really-Didn't-Enjoy" name="Rating" value="Really didn't enjoy">
+				<label for="Really-Didn't-Enjoy">Really didn't enjoy</label><br>
+				<p>Which of the following devices did you view the website on?</p>
+				<select name="devices">
+					<option value="desktop/pc">Desktop/PC</option>
+					<option value="tablet">Tablet</option>
+					<option value="tablet">Mobile</option>
+				</select>
+				<br>
+				<br>				
+				<input type="submit" name="submit" value="Submit">
+			</form>
+		</section>
+		<footer class="col_g_6 col_s_6 col_m_6 col_l_12">
+			<p>All pages associated with this website are the work of Steven Duckett.</p>
+		</footer>
+	</div>
+	</body>
+</html>
